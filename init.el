@@ -3,6 +3,11 @@
 (add-to-list 'load-path "~/.emacs.d/color-theme-6.6.0")
 (add-to-list 'load-path "~/.emacs.d")
 
+;python-mode
+(add-to-list 'load-path "~/.emacs.d/python-mode.el-6.0.4")
+(setq py-install-directory "~/.emacs.d/python-mode.el-6.0.4")
+(require 'python-mode)
+
 (require 'idutils)
 (require 'color-theme)
 
